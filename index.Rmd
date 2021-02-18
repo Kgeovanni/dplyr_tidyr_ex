@@ -1,7 +1,13 @@
 ---
-  output: html_document
+output: html_document
 ---
-```[r]`
+
+hi
+
+
+
+```{r, eval=FALSE}
+
 library(tidyverse)
 
 glimpse(mtcars)
@@ -91,9 +97,7 @@ separate(data = .,
   ) %>%
   ggplot(., aes(x = log(Area), Langs)) +
   geom_point() +
-  geom_smooth(method = "glm"")
-  
-                 
-                 ``
+  geom_smooth(method = "glm")
+```
   
   
